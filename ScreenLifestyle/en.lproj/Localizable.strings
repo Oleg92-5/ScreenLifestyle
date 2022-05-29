@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  ScreenLifestyle
+
+  Created by Олег Рубан on 27.05.2022.
+  
+*/
+
+"restoreButton" = "Restore";
+"premiumLabel" = "Premium Free for \n3 days";
+"getRidLabel" = "Get rid of useless files super fast";
+"withoutADSLabel" = "Without ADS";
+"adBlockerLabel" = "Ad-blocker for Safari";
+"calendarSpamRemoverLabel" = "Calendar spam remover";
+"freeLabel" = "100% free \nfor 3 days";
+"noExtraCostLabel" = "No extra \ncost";
+"zeroFeeLabel" = "Zero fee \nwith risk time";
+"threeDaysFreeTrialButton" = "3 days free trial";
+"priceWeakYaerLabel" = "only 0,83 US$/week\nthen 3,99 US$/year";
+"savesLabel" = "Saves 80%";
+"priceWeakLabel" = "then 3,99 US$/week";
+"contineButton" = "Contine";
+"privacyPolicyLabel" = "You cancel the subscription before the trial ends, otherwise the subscription will be automatically renewed. More Privacy policy & Terms and Conditions";

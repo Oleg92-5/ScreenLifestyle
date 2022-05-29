@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  ScreenLifestyle
+
+  Created by Олег Рубан on 27.05.2022.
+  
+*/
+
+"restoreButton" = "Восстановить";
+"premiumLabel" = "Премиум бесплатно на \n3 дня";
+"getRidLabel" = "Избавьтесь от бесполезных файлов очень быстро";
+"withoutADSLabel" = "Без рекламы";
+"adBlockerLabel" = "Блокировщик рекламы для Safari";
+"calendarSpamRemoverLabel" = "Удаление спама из календаря";
+"freeLabel" = "100% бесплатно \nна 3 дня";
+"noExtraCostLabel" = "Без дополнительных \nзатрат";
+"zeroFeeLabel" = "Нулевая комиссия \nбез риска";
+"threeDaysFreeTrialButton" = "3 дня бесплатного периода";
+"priceWeakYaerLabel" = "всего 0,83 US$/неделя\nзатем 3,99 US$/год";
+"savesLabel" = "Экономия 80%";
+"priceWeakLabel" = "затем 3,99 US$ в неделю";
+"contineButton" = "Продолжить";
+"privacyPolicyLabel" = "Вы отменяете подписку до окончания пробного периода, иначе подписка будет автоматически продлена. Подробнее Политика конфиденциальности и Условия использования";
