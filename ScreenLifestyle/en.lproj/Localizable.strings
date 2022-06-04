@@ -6,15 +6,18 @@
   
 */
 
+
 "restoreButton" = "Restore";
 "premiumLabel" = "Premium Free for \n3 days";
 "getRidLabel" = "Get rid of useless files super fast";
 "withoutADSLabel" = "Without ADS";
 "adBlockerLabel" = "Ad-blocker for Safari";
 "calendarSpamRemoverLabel" = "Calendar spam remover";
-"freeLabel" = "100% free \nfor 3 days";
+"freeLabel" = "100% free";
+"forDaysLabel" = "for 3 days";
 "noExtraCostLabel" = "No extra \ncost";
-"zeroFeeLabel" = "Zero fee \nwith risk time";
+"zeroFeeLabel" = "Zero fee";
+"withRiskTimeLabel" = "with risk time";
 "threeDaysFreeTrialButton" = "3 days free trial";
 "priceWeakYaerLabel" = "only 0,83 US$/week\nthen 3,99 US$/year";
 "savesLabel" = "Saves 80%";

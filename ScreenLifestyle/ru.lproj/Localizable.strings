@@ -12,9 +12,11 @@
 "withoutADSLabel" = "Без рекламы";
 "adBlockerLabel" = "Блокировщик рекламы для Safari";
 "calendarSpamRemoverLabel" = "Удаление спама из календаря";
-"freeLabel" = "100% бесплатно \nна 3 дня";
+"freeLabel" = "100% бесплатно";
+"forDaysLabel" = "на 3 дня";
 "noExtraCostLabel" = "Без дополнительных \nзатрат";
-"zeroFeeLabel" = "Нулевая комиссия \nбез риска";
+"zeroFeeLabel" = "Без комиссии";
+"withRiskTimeLabel" = "без риска";
 "threeDaysFreeTrialButton" = "3 дня бесплатного периода";
 "priceWeakYaerLabel" = "всего 0,83 US$/неделя\nзатем 3,99 US$/год";
 "savesLabel" = "Экономия 80%";
