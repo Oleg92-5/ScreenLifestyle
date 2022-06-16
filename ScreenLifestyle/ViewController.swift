@@ -102,8 +102,6 @@ class ViewController: UIViewController {
         label.textColor = UIColor(red: 1, green: 1, blue: 1, alpha: 1)
         label.numberOfLines = 0
         label.textAlignment = .center
-        label.adjustsFontSizeToFitWidth = true
-        label.minimumScaleFactor = 0.5
         
         label.adjustsFontSizeToFitWidth = true
         label.minimumScaleFactor = 0.5
@@ -331,7 +329,7 @@ class ViewController: UIViewController {
         let stackView = UIStackView(arrangedSubviews: [stackViewOne, septumView, stackViewTwo, septum2View, stackViewThree])
         stackView.translatesAutoresizingMaskIntoConstraints = false
         stackView.axis = .horizontal
-        stackView.spacing = 5.0.adoptedForDpi
+        stackView.spacing = 5.0.adoptedForDpiWidht
         stackView.distribution = .fill
         return stackView
     }()
@@ -483,13 +481,15 @@ class ViewController: UIViewController {
             }
     
     @objc func didTap(_ button: UIButton) {
-        button.isSelected = !button.isSelected
-        print("privacyPolicyLabel - \(privacyPolicyLabel.frame)")
-        if button.isSelected == true {
-            button.layer.borderWidth = 1
-            button.layer.borderColor = UIColor(red: 1, green: 1, blue: 1, alpha: 1).cgColor
-        } else {
-            button.layer.borderWidth = 0
+        UIView.transition(with: view, duration: 0.3, options: .transitionCrossDissolve) {
+            button.isSelected = !button.isSelected
+            print("privacyPolicyLabel - \(self.privacyPolicyLabel.frame)")
+            if button.isSelected == true {
+                button.layer.borderWidth = 1
+                button.layer.borderColor = UIColor(red: 1, green: 1, blue: 1, alpha: 1).cgColor
+            } else {
+                button.layer.borderWidth = 0
+            }
         }
     }
 }
@@ -498,7 +498,7 @@ private extension ViewController {
     
     func addUIView() {
         let gradient: CAGradientLayer = CAGradientLayer()
-        gradient.colors = [#colorLiteral(red: 0.01568627451, green: 0.4431372549, blue: 0.9921568627, alpha: 1), #colorLiteral(red: 0.01568627451, green: 0.8156862745, blue: 0.9921568627, alpha: 1)].map { $0.cgColor }
+        gradient.colors = [#colorLiteral(red: 0.1176470588, green: 0.262745098, blue: 1, alpha: 1), #colorLiteral(red: 0.01568627451, green: 0.8156862745, blue: 0.9921568627, alpha: 1)].map { $0.cgColor }
         gradient.locations = [0.0424, 1.1864]
         gradient.startPoint = CGPoint(x: 0.0, y: 1.0)
         gradient.endPoint = CGPoint(x: 1.0, y: 1.0)
